@@ -1,6 +1,6 @@
 # Automobile-Price-Prediction
 
-This repository contains the data, code in R, and repotr for a machine learning project predicting automobile prices using regression trees, Random Forests, and Gradient Boosting, with insights into key price-determining factors. It is the Final project for MGSC 661 - Multivariate Statcl Analysis (Data Anlytics and AI for business).
+This repository includes the data, R code, and report for a machine learning project focused on predicting automobile prices using regression trees, Random Forests, and Gradient Boosting. The project provides insights into key factors influencing automobile prices. It serves as the final project for MGSC 661 - Multivariate Statistical Analysis (Data Analytics and AI for Business).
 
 
 ## Overview
