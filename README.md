@@ -17,11 +17,14 @@ The data was cleaned and preprocessed, including:
 - Correlation analysis to identify key relationships between features and price.
 
 ## Methodology
-- **Principal Component Analysis (PCA)** was used to reduce dimensionality and address multicollinearity among numeric variables.
-- **Modeling**: 
-  - **Regression Tree**: The initial model explained 84.1% of price variation.
-  - **Random Forest**: Achieved 90.78% R-squared, significantly improving accuracy.
-  - **Gradient Boosting Machine (GBM)**: Achieved 87.75% R-squared, slightly outperforming the regression tree but lagging behind the Random Forest.
+- **Principal Component Analysis (PCA)** was used to reduce dimensionality and address multicollinearity among numeric variables as it is a high-dimensional dataset with many features.
+- **Modeling**: Tree-based models for non-linear relationship
+  - **Regression Tree**: Quick benchmark and easy explanation of rules. The initial model explained 84.1% of price variation.
+  - **Random Forest**: Ensemble of many decision trees, reduces variance, more robust to noise, handles mixed data types. Achieved 90.78% R-squared, significantly improving accuracy.
+  - **Gradient Boosting Machine (GBM)**: Builds trees sequentially, each correcting previous errors; excellent predictive power; can handle complex patterns well. Achieved 87.75% R-squared, slightly outperforming the regression tree but lagging behind the Random Forest.
+- **Validation Metrics**:
+  - **Mean Absolute Error**: Stakeholders can easily grasp “average error in real units,” making it easy to communicate.
+  - **R square**: measures how much variance in the target variable is explained by the model compared to a simple mean-based prediction.
 
 ## Results & Insights
 - Key factors influencing car prices include **engine size**, **curb weight**, and **fuel efficiency**.
